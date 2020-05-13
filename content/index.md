@@ -1,3 +1,4 @@
 ---
-title: Sample page for Content Template
+title: Weeknotes
+aliases: [/event]
 ---

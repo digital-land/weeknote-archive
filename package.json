@@ -1,5 +1,5 @@
 {
-  "name": "content-template",
+  "name": "weeknote",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digital-land/content-template.git"
+    "url": "git+https://github.com/digital-land/weeknote.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digital-land/content-template/issues"
+    "url": "https://github.com/digital-land/weeknote/issues"
   },
-  "homepage": "https://github.com/digital-land/content-template#readme",
+  "homepage": "https://github.com/digital-land/weeknote#readme",
   "dependencies": {
     "frontend": "file:content-frontend"
   }

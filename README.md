@@ -1,7 +1,8 @@
-# Content Template
+# weeknote
+
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
-A template repository to quickly deploy content-only pages to the Digital Land website.
+Content for [/weeknote](https://digital-land.github.io/weeknote) pages.
 
 ## Requirements
 
@@ -10,21 +11,12 @@ A template repository to quickly deploy content-only pages to the Digital Land w
 
 ## Getting started
 
-You can use this as a template repository within GitHub.com or you can [download this repository as a ZIP](https://github.com/digital-land/content-template/archive/master.zip).
+Clone the repository recursively and install dependencies:
 
-For example:
 ```
-git clone https://github.com/digital-land/content-template.git --recursive
-cd content-template
+git clone https://github.com/digital-land/weeknote --recursive
+cd weeknote
 npm install
 ```
 
-Then you can add a remote:
-```
-git remote add {remote-name} https://github.com/../{new-repository-url}.git
-git push -u {remote-name} master
-```
-
-You can add some content in the `content` directory. `npm run prestart` will compile these into the `docs` directory and you can expose it through GitHub Pages.
-
-`npm run start` will also compile content into the `docs` directory, and will also expose it at `localhost:8080`.
+To run it locally, run `npm run start`. This will expose the `/docs` subdirectory to `localhost:8080/weeknote`.

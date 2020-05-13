@@ -1,9 +1,9 @@
-name: Build /content-template pages
+name: Build /weeknote pages
 
 on:
   push:
     paths-ignore:
-      - '**' # Change this to docs/** - this currently ignores any file changes
+      - 'docs/**'
     branches:
       - master
 
@@ -30,9 +30,9 @@ jobs:
         git checkout master
     - name: Install dependencies
       run: npm install
-    - name: Build /content-template pages
+    - name: Build /weeknote pages
       run: npm run prestart
     - name: Commit files
       run: |
         git add docs
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Build /content-template for $(date +%F)"; git push origin master)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Build /weeknote for $(date +%F)"; git push origin master)
